@@ -1,0 +1,91 @@
+<div class="wrapper">
+    <div class="page-header section-dark" style="background-image: url('assets/img/covidrc_back.jpg')">
+        <div class="filter"></div>
+        <div class="content-center">
+            <div class="container">
+                <div class="title-brand">
+                    
+                    <h1 class="presentation-title">Covidrc-19</h1>
+                    <div class="fog-low">
+                        <img src="assets/img/fog-low.png" alt="">
+                    </div>
+                    <div class="fog-low right">
+                        <img src="assets/img/fog-low.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="presentation-subtitle text-center">Informez-vous sur la propagation du covid-19 en RDC et au monde</h2>
+            </div>
+        </div>
+        <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); "></div>
+        <h6 class=" category-absolute ml-auto mr-auto">
+         <a href="assets/COVIDRC-19.apk" download>   <button type="button" class="btn btn-danger btn-round" (click)="onDownload()">
+         <i class="fa fa-android"></i> Télécharger l'application</button></a>
+        
+        </h6>
+    </div>
+    <div class="main">
+         
+     
+        
+        <div class="section section-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">Laissez-nous un message</h2>
+                        <!-- <p class="description">The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful kit.</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-image section-login" style="background-image: url('assets/img/login-image.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 ml-auto mr-auto">
+                        <div class="card card-register">
+                            <h3 class="title">Covidrc</h3>
+                            <div class="social-line text-center">
+                                <a href="#" class="btn btn-neutral btn-facebook btn-just-icon">
+                                    <i class="fa fa-facebook-square"></i>
+                                </a>
+                                <a href="#" class="btn btn-neutral btn-google btn-just-icon">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                                <a href="#" class="btn btn-neutral btn-twitter btn-just-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div>
+                            <form class="register-form">
+                                <label>Nom</label>
+                                <div class="input-group form-group-no-border" [ngClass]="{'input-group-focus':focus1===true}">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                  </div>
+                                    <input type="text" class="form-control" placeholder="ex: ezechiel sums" (focus)="focus1=true" (blur)="focus1=false" >
+                                </div>
+                                <label>Email</label>
+                                <div class="input-group form-group-no-border" [ngClass]="{'input-group-focus':focus===true}">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="nc-icon nc-email-85"></i>
+                                    </span>
+                                  </div>
+
+                                    <input type="text" class="form-control" placeholder="ex: Ezechielsums@gmail.com" (focus)="focus=true" (blur)="focus=false" >
+                                </div>
+
+                                <button class="btn btn-danger btn-block btn-round">Validé</button>
+                            </form>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+    </div>
+</div>
